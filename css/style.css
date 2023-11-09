@@ -47,6 +47,7 @@ body main {
     min-width: 60vw;
     max-width: 60vw;
     max-height: 75vh;
+    margin-top: 5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -112,7 +113,7 @@ body main .info h1 {
 }
 @media (max-width: 500px) {
   body main .info h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
 body main .info h2 {

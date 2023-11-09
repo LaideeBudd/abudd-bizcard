@@ -45,6 +45,8 @@ body {
       max-width: 60vw;
 
       max-height: 75vh;
+
+      margin-top: 5rem;
     }
 
     .shapes {
@@ -104,7 +106,7 @@ body {
         }
 
         @include media.xs {
-          font-size: 2rem;
+          font-size: 1.75rem;
         }
       }
 
