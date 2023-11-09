@@ -14,32 +14,148 @@ body main {
   display: flex;
   border: 3px solid #000;
   display: flex;
-  min-width: 60vw;
-  max-width: 60vw;
+  max-width: none;
   max-height: 61.9vh;
   margin-top: 10rem;
   background-color: #fff;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  body main {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 40vw;
+    max-width: 40vw;
+    max-height: 75vh;
+  }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  body main {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 40vw;
+    max-width: 50vw;
+    max-height: 75vh;
+  }
+}
+@media (max-width: 500px) {
+  body main {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 50vw;
+    max-width: 60vw;
+    max-height: 75vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body main .shapes {
+    align-self: center;
+  }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  body main .shapes {
+    align-self: center;
+  }
+}
+@media (max-width: 500px) {
+  body main .shapes {
+    align-self: center;
+  }
+}
+body main .shapes img {
+  max-width: 100%;
+}
 body main .info {
   margin-left: 3rem;
+  margin-right: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  body main .info {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  body main .info {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  body main .info {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+}
 body main .info h1 {
   font-family: "Scope One";
   font-size: 4rem;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body main .info h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  body main .info h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  body main .info h1 {
+    font-size: 2rem;
+  }
 }
 body main .info h2 {
   font-family: "Montserrat";
   font-size: 2rem;
   margin-top: -1rem;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  body main .info h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  body main .info h2 {
+    font-size: 1.25rem;
+    margin-top: -0.25rem;
+  }
+}
+@media (max-width: 500px) {
+  body main .info h2 {
+    font-size: 1.25rem;
+    margin-top: -0.25rem;
+  }
+}
 body main .info .line {
   margin-top: 1rem;
   border-bottom: 4px solid #bb2025;
   width: 110%;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body main .info .line {
+    width: 85%;
+  }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  body main .info .line {
+    width: 65%;
+  }
+}
+@media (max-width: 500px) {
+  body main .info .line {
+    width: 65%;
+  }
 }
 body main .info .links {
   margin-top: 1rem;
@@ -55,9 +171,42 @@ body main .info .links a {
   font-family: "Montserrat";
   font-size: 1.5rem;
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  body main .info .links a {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  body main .info .links a {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 500px) {
+  body main .info .links a {
+    font-size: 0.8rem;
+  }
+}
 body main .info .links a img {
   width: 4rem;
   margin: 0.5rem;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body main .info .links a img {
+    width: 2.5rem;
+    margin: 0.25rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+  body main .info .links a img {
+    width: 2.5rem;
+    margin: 0.25rem;
+  }
+}
+@media (max-width: 500px) {
+  body main .info .links a img {
+    width: 2.5rem;
+    margin: 0.25rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
