@@ -5,7 +5,7 @@ const flipShapes = () => {
   if (document.body.clientWidth < 1199) {
     shapes.src = "./images/bizcardfrontmobile.png";
   } else {
-    shapes.src = "./images/bizcardfront.png";
+    shapes.src = "./images/Bizcardfront.png";
   }
 };
 
