@@ -9,4 +9,5 @@ const flipShapes = () => {
   }
 };
 
+window.onload = flipShapes;
 window.onresize = flipShapes;
